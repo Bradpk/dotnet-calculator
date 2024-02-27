@@ -4,41 +4,41 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome dotnetters</h1>
-    <div class="test">
-        <div class="screen">Screen</div>
-        <div class="what">
-            <div class="button">(</div>
-            <div class="button">)</div>
-            <div class="button">%</div>
-            <div class="button">CE</div>
+<form method="post">
+    <div class="text-center">
+        <h1 class="display-4">Welcome dotnetters</h1>
+        <div class="test">
+            <div class="screen">@Model.Screen</div>
+            <div class="what">
+                <button class="button" type="submit" name="button" value="(">(</button>
+                <button class="button" type="submit" name="button" value=")">)</button>
+                <button class="button" type="submit" name="button" value="%">%</button>
+                <button class="button" type="submit" name="button" value="CE">CE</button>
+            </div>
+            <div class="what">
+                <button class="button" type="submit" name="button" value="7">7</button>
+                <button class="button" type="submit" name="button" value="8">8</button>
+                <button class="button" type="submit" name="button" value="9">9</button>
+                <button class="button" type="submit" name="button" value="/">/</button>
+            </div>
+            <div class="what">
+                <button class="button" type="submit" name="button" value="4">4</button>
+                <button class="button" type="submit" name="button" value="5">5</button>
+                <button class="button" type="submit" name="button" value="6">6</button>
+                <button class="button" type="submit" name="button" value="*">*</button>
+            </div>
+            <div class="what">
+                <button class="button" type="submit" name="button" value="1">1</button>
+                <button class="button" type="submit" name="button" value="2">2</button>
+                <button class="button" type="submit" name="button" value="3">3</button>
+                <button class="button" type="submit" name="button" value="-">-</button>
+            </div>
+            <div class="what">
+                <button class="button" type="submit" name="button" value="0">0</button>
+                <button class="button" type="submit" name="button" value=".">.</button>
+                <button type="submit" name="button" value="=" class="equals">=</button>
+                <button class="button" type="submit" name="button" value="+">+</button>
+            </div>
         </div>
-        <div class="what">
-            <div class="button">7</div>
-            <div class="button">8</div>
-            <div class="button">9</div>
-            <div class="button">/</div>
-        </div>
-        <div class="what">
-            <div class="button">4</div>
-            <div class="button">5</div>
-            <div class="button">6</div>
-            <div class="button">x</div>
-        </div>
-        <div class="what">
-            <div class="button">1</div>
-            <div class="button">2</div>
-            <div class="button">3</div>
-            <div class="button">-</div>
-        </div>
-        <div class="what">
-            <div class="button">0</div>
-            <div class="button">.</div>
-            <div class="button equals">=</div>
-            <div class="button">+</div>
-        </div>
-
     </div>
-
-</div>
+</form>

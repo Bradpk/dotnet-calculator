@@ -1,19 +1,52 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using System;
+using System.Data;
 
-namespace dotnet_calculator.Pages;
-
-public class IndexModel : PageModel
+namespace dotnet_calculator.Pages
 {
-    private readonly ILogger<IndexModel> _logger;
-
-    public IndexModel(ILogger<IndexModel> logger)
+    public class IndexModel : PageModel
     {
-        _logger = logger;
-    }
+        public string Screen { get; set; } = "0";
 
-    public void OnGet()
-    {
+        public void OnGet()
+        {
+        }
 
+        public void OnPost(string button)
+        {
+            switch (button)
+            {
+                case "CE":
+                    Screen = "0";
+                    break;
+                case "=":
+                    try
+                    {
+                        Screen = Evaluate(Screen).ToString();
+                    }
+                    catch
+                    {
+                        Screen = "Error";
+                    }
+                    break;
+                default:
+                    if (Screen == "0")
+                    {
+                        Screen = button;
+                    }
+                    else
+                    {
+                        Screen += button;
+                    }
+                    break;
+            }
+        }
+
+        private double Evaluate(string expression)
+        {
+            var dataTable = new DataTable();
+            return (double)Convert.ChangeType(dataTable.Compute(expression, null), typeof(double));
+        }
     }
 }
