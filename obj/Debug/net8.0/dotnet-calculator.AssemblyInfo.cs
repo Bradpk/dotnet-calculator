@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("dotnet-calculator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f7fd2db3da424b6914f160678e2ca203cfcceaa1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+88afdc7f7fe4688d78a7cda5415cdedaf15ef894")]
 [assembly: System.Reflection.AssemblyProductAttribute("dotnet-calculator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("dotnet-calculator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
