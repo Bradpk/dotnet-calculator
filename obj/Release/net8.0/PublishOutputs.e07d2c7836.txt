@@ -1,0 +1,7 @@
+/Users/bradk/Downloads/html5up-dimension/dotnet-calculator/bin/Release/net8.0/publish/dotnet-calculator
+/Users/bradk/Downloads/html5up-dimension/dotnet-calculator/bin/Release/net8.0/publish/appsettings.Development.json
+/Users/bradk/Downloads/html5up-dimension/dotnet-calculator/bin/Release/net8.0/publish/appsettings.json
+/Users/bradk/Downloads/html5up-dimension/dotnet-calculator/bin/Release/net8.0/publish/dotnet-calculator.dll
+/Users/bradk/Downloads/html5up-dimension/dotnet-calculator/bin/Release/net8.0/publish/dotnet-calculator.deps.json
+/Users/bradk/Downloads/html5up-dimension/dotnet-calculator/bin/Release/net8.0/publish/dotnet-calculator.runtimeconfig.json
+/Users/bradk/Downloads/html5up-dimension/dotnet-calculator/bin/Release/net8.0/publish/dotnet-calculator.pdb

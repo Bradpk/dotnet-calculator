@@ -20,7 +20,7 @@ html {
 body {
   margin-bottom: 50px;
   margin-top: 50px;
-  background-color: #c8e4ff;
+  background-color: #92caffd9;
 }
 
 .text-center {
@@ -64,8 +64,13 @@ body {
   justify-content: center;
 }
 
+.button:hover {
+  background-color: lightblue; 
+}
+
+
 .equals {
-  background-color: greenyellow;
+  background-color: rgb(209, 255, 140);
   border: 1px solid rgb(0, 0, 0);
   width: 75px;
   height: 75px;
